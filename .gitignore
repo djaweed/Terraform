@@ -1,0 +1,31 @@
+# Local Terraform directories
+**/.terraform/*                       # Terraform module cache :contentReference[oaicite:0]{index=0}
+
+# Terraform state and lock files
+*.tfstate                             # State snapshots :contentReference[oaicite:1]{index=1}
+*.tfstate.*                           # State backups :contentReference[oaicite:2]{index=2}
+.terraform.tfstate.lock.info          # Local lock info :contentReference[oaicite:3]{index=3}
+
+# Crash log files
+crash.log                             # Terraform crash logs :contentReference[oaicite:4]{index=4}
+crash.*.log                           # Other crash logs :contentReference[oaicite:5]{index=5}
+
+# Sensitive variable files
+*.tfvars                              # Variables (likely contain secrets) :contentReference[oaicite:6]{index=6}
+*.tfvars.json                         # JSON-formatted variables :contentReference[oaicite:7]{index=7}
+
+# Override files (local customizations)
+override.tf                           # Local overrides :contentReference[oaicite:8]{index=8}
+override.tf.json                      # JSON overrides :contentReference[oaicite:9]{index=9}
+*_override.tf                         # Pattern-based overrides :contentReference[oaicite:10]{index=10}
+*_override.tf.json                    # Pattern-based JSON overrides :contentReference[oaicite:11]{index=11}
+
+# Terraform CLI config
+.terraformrc                          # CLI config file :contentReference[oaicite:12]{index=12}
+terraform.rc                          # Alternative CLI config :contentReference[oaicite:13]{index=13}
+
+# IDE and OS artifacts
+.vscode/                              # VS Code settings
+.idea/                                # IntelliJ/IDEA settings
+*.swp                                 # Vim swap files
+.DS_Store                             # macOS filesystem attribute
