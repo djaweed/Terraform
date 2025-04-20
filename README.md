@@ -1,6 +1,3 @@
-# Writing README.md file for download
-readme_content = """# AWS Terraform Modular Repository
-
 This repository provides a modular VPC module for AWS networking infrastructure that can be reused across environments. It also includes an example networking stack demonstrating best practices for wiring modules in a root configuration. IAM roles and policies are dynamically generated with `data.aws_caller_identity` and `aws_iam_policy_document` to avoid hard‑coding account IDs in source files. The repository conforms to the standard Terraform module structure with clear separation of `modules/` and `examples/`, enabling compatibility with the Terraform Registry. A remote state backend powered by S3 and DynamoDB ensures state locking and secure storage, with explicit IAM permission management prescribed. Comprehensive documentation, variables, and outputs help accelerate adoption and support automated CI/CD workflows.
 
 ## Prerequisites
